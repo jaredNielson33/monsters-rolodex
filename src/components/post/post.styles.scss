@@ -1,0 +1,31 @@
+.post-container {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    border: 1px solid black;
+    background-color: #95dada;
+    border-radius: 20px;
+    margin: 25px auto;
+    &:first-child {
+        margin-top: 50px;
+    }
+
+    .post-title {
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 25px 0 0 0;
+        padding: 0 25px;
+    }
+    .post-content {
+        margin: 0;
+        padding: 25px;
+    }
+
+    .post-number{
+        padding: 15px 25px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

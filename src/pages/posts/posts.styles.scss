@@ -1,0 +1,18 @@
+.monster-posts {
+    .card-container {
+        width: 25%;
+        margin: 0 auto;
+        transform: none;
+    }
+
+    .back-container {
+        position: absolute;
+        left: 10%;
+        top: 2%;
+        font-size: 20px;
+        a {
+            color: #95dada;
+            text-decoration: none;
+        }
+    }
+}

@@ -16,3 +16,7 @@ h1 {
   font-size: 72px;
   color: #95dada;
 }
+
+* {
+  box-sizing: border-box;
+}
